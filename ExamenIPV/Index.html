@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Librería</title>
+</head>
+
+<body>
+    <style>
+        h1{
+            text-align: center;
+        }
+        tr , td {
+            border-style: dashed;
+            background-color: #96D4D4;
+        }
+        .menu {
+            padding: 20px;
+        }
+        .menu a{
+            color: black
+        }
+        .menu a:hover{
+            color:  #96D4D4;
+        }
+    
+        .Sucursal img{
+            padding: 1%;
+        }
+        
+    
+    </style>
+    <h1>Boceto para Librería</h1>
+    <div class="menu">
+        <a href="#Titles">Títulos</a>
+        <a href="#Sucursales">Sucursales</a>
+        <a href="#Contacto">Contacto</a>
+      </div>
+      <hr>
+    <div id="Titles">
+        <table>
+            <tr>
+                <th>Título</th>
+                <th>Cantidad Disponible</th>
+                <th>Precio</th>
+                <th>Ubicación</th>
+                <th colspan="3">Idiomas</th>
+            </tr>
+            <tr>
+                <td>El Señor de los Anillos</td>
+                <td>100</td>
+                <td>$13</td>
+                <td>Tienda San José</td>
+                <td>Inglés</td>
+                <td>Español</td>
+            </tr>
+            <tr>
+                <td>Paco y Lola</td>
+                <td>530</td>
+                <td>$8</td>
+                <td>Tienda San José</td>
+                <td>Español</td>
+            </tr>
+            <tr>
+                <td>Harry Potter y la Piedra Filosofal</td>
+                <td>500</td>
+                <td>$20</td>
+                <td>Todas las sucursales</td>
+                <td>Inglés</td>
+                <td>Español</td>
+                <td>Mandarín</td>
+            </tr>
+            <tr>
+                <td>Harry Potter y el Caliz de Fuego</td>
+                <td>20</td>
+                <td>$20</td>
+                <td>Todas las sucursales</td>
+                <td>Inglés</td>
+                <td>Español</td>
+                <td>Ruso</td>
+            </tr>
+        </table>
+    </div>
+    <hr>
+    <h1>Nuestras Sucursales</h1>
+    <div id="Sucursales" class="Sucursal">
+        <h2>San José - La Sabana</h2>
+        <img src="img/Tienda1.jpeg" alt="Tienda en San José" height="300"><br>
+        <p>200mts Oeste del Estadio Nacional</p>
+        <h2>Cartago</h2>
+        <img src="img/Tienda2.jpeg" alt="Tienda en Cartago" height="300"><br>
+        <p>Frente a la Basílica de los Ángeles</p>
+    <hr>
+    </div>
+    <div id="Contacto" class="contact">
+        <h1>Contáctenos: </h1>
+        <form action="ejemplo.php" method="GET">
+            <label for="nombre">Nombre: </label>
+            <input type="text" id="nombre" required><br><br>
+            <label for="asunto">Asunto: </label>
+            <input type="text" id="asunto"required><br><br>
+            <label for="libro">Libro de interés: </label>
+            <select id="libro">
+                <option>Harry Potter y la Piedra Filosofal</option>
+                <option>Harry Potter y el Caliz de Fuego</option>
+                <option>Paco y Lola</option>
+                <option>El Señor de los Anillos</option>
+            </select><br><br>
+            <label for="campo">Escriba su mensaje: </label>
+            <textarea id="campo"></textarea><br><br>
+            <button type="submit">Enviar</button>
+        </form>
+        <br><br>
+        <p>Para mayor información, puede visitar nuestra página web oficial <a href="https://www.libreriainternacional.com/Contactenos">aquí</a></p>
+        <p>&lt;hr&gt; </p>
+    </div>
+</body>
+</html>
