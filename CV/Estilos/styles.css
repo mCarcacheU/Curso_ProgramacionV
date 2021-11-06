@@ -1,0 +1,55 @@
+h1 {
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    color:rgb(255, 59, 92);
+    font-weight: 50px;
+}
+p {
+    text-align: justify;
+}
+
+.elemento{
+    color: black;
+}
+a:hover {
+    color: pink;  
+}
+.div1{
+    position: relative;
+    height: 8px;
+    background: pink;
+    
+}
+table {
+    margin: auto;
+    width: 100%;
+    border: 1px solid black;
+    
+
+}
+th , td {
+    border: 1px solid black;
+    text-align: center;
+}
+input{
+    width: 100%;
+    padding: 10px 10px;
+    margin: 4px 0;
+    box-sizing: border-box;
+    margin-bottom: 10px;
+}
+select {
+    width: 100%;
+    padding: 10px 10px;
+    border: none;
+    border-radius: 4px;
+    background-color: rgb(255, 223, 228);
+    margin-bottom: 10px;
+}
+textarea {
+    width: 100%;
+    background-color:rgb(255, 223, 228);
+    box-sizing: border-box;
+    height: 100px;
+    padding: 12px 20px;
+}
